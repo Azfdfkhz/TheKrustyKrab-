@@ -222,7 +222,7 @@ html{
     right: -30px;
     top: 8px;
 }
-/* media queries */
+
 @media (max-width: 1160px){
     .home .container .content h1{
         font-size: 45px;
@@ -681,8 +681,8 @@ html{
     margin: 2.5%;
 }
 .locations .container .text img{
-    width: 100%;
-    height: 700px;
+    width: 110%;
+    height: 500px;
     border-radius: 10px;
 }
 .locations .container .text h2{
