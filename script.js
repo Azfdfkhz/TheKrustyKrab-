@@ -13,8 +13,6 @@ popupBtns.forEach((popupBtns, i ) => {
     });
 });
 
-
-
 function openPopup(popupId) {
   const popup = document.getElementById(popupId);
   popup.classList.add('active');
@@ -42,11 +40,6 @@ document.querySelectorAll('.close-btn').forEach(button => {
 function addToCart(itemName, price) {
   console.log('Added to cart:', itemName, 'Price:', price);
 }
-
-
-
-
-
 
 let cart = [];
 
@@ -92,7 +85,6 @@ function updateCart() {
         totalPrice += item.price * item.quantity;
     });
 
-
     cartCount.textContent = cart.length;
     totalPriceElem.textContent = totalPrice.toFixed(2);
 }
@@ -112,7 +104,6 @@ function checkout() {
     document.getElementById('checkout-popup').style.display = 'block';
     cart = [];
     updateCart();  
-
     
 }
 
