@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
+/*ini diperuntukan untuk mengubah warna yg kita tuju lebih cepat tidak perlu 1per1*/
 :root{
     --coffe:rgb(131, 68, 23);
     --warna-border:rgb(73, 65, 65);
